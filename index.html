@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عبد العزيز السعيد | المحفظة المهنية</title>
+    <meta name="description" content="المحفظة المهنية لعبد العزيز السعيد - خريج هندسة برمجيات من جامعة حائل ومتدرب تعاوني في وزارة النقل والخدمات اللوجستية. استعرض مشاريعي الجامعية والشخصية وشهاداتي المهنية.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" data-i18n="logo">عبد العزيز<span>.</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active" data-i18n="nav-home">الرئيسية</a>
+                <a href="#about" class="nav-link" data-i18n="nav-about">عني</a>
+                <a href="#projects" class="nav-link" data-i18n="nav-projects">مشاريعي</a>
+                <a href="#certificates" class="nav-link" data-i18n="nav-certs">الشهادات</a>
+                <a href="#workshops" class="nav-link" data-i18n="nav-workshops">ورش العمل</a>
+                <a href="#contact" class="nav-link" data-i18n="nav-contact">اتصل بي</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn btn-outline btn-sm lang-btn" id="langBtn">EN</button>
+                <a href="https://drive.google.com/file/d/1sc4M40BcerGc8l_N3dAdjQ8n7obBATI1/view?usp=drivesdk" target="_blank" class="btn btn-primary btn-sm cv-btn" data-i18n="cv-btn"><i class="fa-solid fa-download"></i> السيرة الذاتية</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag" data-i18n="hero-tag">أهلاً بك في موقعي الشخصي</span>
+                <h1 class="hero-title" data-i18n="hero-title">أنا <span>عبد العزيز السعيد</span></h1>
+                <h2 class="hero-subtitle">
+                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+                </h2>
+                <p class="hero-description" data-i18n="hero-desc">
+                    خريج هندسة برمجيات من جامعة حائل، أسعى لتوظيف مهاراتي الأكاديمية والعملية في حل المشكلات التقنية وتطوير الحلول البرمجية. أقضي حالياً فترة تدريبي التعاوني في وزارة النقل والخدمات اللوجستية لتطوير مسيرتي المهنية.
+                </p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary" data-i18n="contact-btn"><i class="fa-solid fa-paper-plane"></i> تواصل معي</a>
+                    <a href="https://drive.google.com/file/d/1sc4M40BcerGc8l_N3dAdjQ8n7obBATI1/view?usp=drivesdk" target="_blank" class="btn btn-outline cv-btn" data-i18n="download-cv"><i class="fa-solid fa-file-pdf"></i> تحميل السيرة الذاتية</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/abdulaziz-alsaed" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/azizom555" target="_blank" aria-label="GitHub" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:azizom555723@gmail.com" aria-label="Email" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-avatar-area">
+                <div class="avatar-wrapper">
+                    <img src="https://raw.githubusercontent.com/zoza88479-alt/Img/8d5869e930c9d2b1eb3b06aa18f47fd8d3a73713/IMG_8147.jpeg" alt="عبد العزيز السعيد" class="profile-img">
+                    <div class="glowing-ring"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Co-op Internship Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title" data-i18n="about-tag">من أنا؟</span>
+                <h2 class="main-title" data-i18n="about-title">نبذة عني ومسيرتي المهنية</h2>
+            </div>
+            
+            <div class="about-grid">
+                <!-- Info text -->
+                <div class="about-info">
+                    <h3 data-i18n="about-subtitle">شغوف بالهندسة البرمجية والحلول الذكية</h3>
+                    <p data-i18n="about-desc">
+                        خريج هندسة برمجيات، مهتم بتطوير البرمجيات والتقنيات الحديثة، وأسعى إلى تطوير مهاراتي من خلال التعلم المستمر والتطبيق العملي، مع شغف ببناء حلول تقنية واكتساب الخبرات.
+                    </p>
+                    <div class="education-card">
+                        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="edu-details">
+                            <h4 data-i18n="degree-title">بكالوريوس هندسة برمجيات</h4>
+                            <p data-i18n="degree-university">جامعة حائل | تخرج: 2026</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Card -->
+                <div class="internship-card-wrapper">
+                    <div class="internship-card">
+                        <div class="badge-active" data-i18n="badge-active">نشط حالياً</div>
+                        <div class="card-glow"></div>
+                        <div class="card-icon"><i class="fa-solid fa-building-shield"></i></div>
+                        <h3 data-i18n="internship-title">التدريب التعاوني</h3>
+                        <h4 class="dept-title" data-i18n="internship-dept">وزارة النقل والخدمات اللوجستية</h4>
+                        <p class="intern-desc" data-i18n="internship-desc">
+                            أعمل كمتدرب تعاوني لدعم التحول الرقمي وتطوير الحلول البرمجية واللوجستية والخدماتية داخل قطاعات الوزارة في منطقة حائل.
+                        </p>
+                        <div class="intern-details">
+                            <span data-i18n="internship-start"><i class="fa-regular fa-calendar-days"></i> البداية: يونيو 2026</span>
+                            <span data-i18n="internship-location"><i class="fa-solid fa-location-dot"></i> حائل، المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Row -->
+            <div class="skills-wrapper">
+                <h3 class="skills-title" data-i18n="skills-title">أبرز المهارات والتقنيات</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</span>
+                    <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    <span class="skill-tag"><i class="fa-solid fa-code"></i> Python & R</span>
+                    <span class="skill-tag"><i class="fa-solid fa-laptop-code"></i> Java / OOP</span>
+                    <span class="skill-tag"><i class="fa-solid fa-database"></i> SQL / Databases</span>
+                    <span class="skill-tag"><i class="fa-solid fa-list-check"></i> Clean Code & SOLID</span>
+                    <span class="skill-tag"><i class="fa-solid fa-palette"></i> تصميم واجهات UI/UX</span>
+                    <span class="skill-tag"><i class="fa-brands fa-docker"></i> Docker & Nginx</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title" data-i18n="projects-tag">أعمالي</span>
+                <h2 class="main-title" data-i18n="projects-title">المشاريع الجامعية والشخصية</h2>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-i18n="filter-all">الكل</button>
+                <button class="filter-btn" data-filter="university" data-i18n="filter-uni">مشاريع جامعية</button>
+                <button class="filter-btn" data-filter="personal" data-i18n="filter-pers">مشاريع شخصية</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1: Personal (ProjectFlow) -->
+                <div class="project-card" data-category="personal">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-list-check"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-pers">مشروع شخصي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p1-title">ProjectFlow – نظام إدارة المشاريع والمهام</h3>
+                        <p data-i18n="p1-desc">تطبيق ونظام متكامل لتتبع وإدارة المشاريع والمهام اليومية وتوزيع المهام بين فرق العمل بمرونة وسهولة، مع واجهات مستخدم متجاوبة.</p>
+                        <div class="project-techs">
+                            <span>إدارة مشاريع</span>
+                            <span>تطوير ويب</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://lnkd.in/eXT6fCnt" target="_blank" class="btn-project btn-live" data-i18n="project-links-live"><i class="fa-solid fa-globe"></i> زيارة المشروع</a>
+                            <a href="https://github.com" target="_blank" class="btn-project btn-code" data-i18n="project-links-code"><i class="fa-brands fa-github"></i> كود المشروع</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: University (Student Task Management System) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-list-check"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p2-title">Student Task Management System</h3>
+                        <p data-i18n="p2-desc">بحث وتصميم نظام إدارة مهام الطلاب لمساعدتهم في تنظيم التكاليف الأكاديمية وجداول الدراسة وتتبع المواعيد النهائية للمشاريع.</p>
+                        <div class="project-techs">
+                            <span>FastAPI</span>
+                            <span>SQLite</span>
+                            <span>SQLModel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/17LkcJVqsYHIGAdAtY175ecEyFlvUpwg7/view?usp=drivesdk" target="_blank" class="btn-project btn-doc" data-i18n="project-links-doc"><i class="fa-solid fa-file-pdf"></i> عرض التقرير والبحث</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: University (Software Modelling & Simulation) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-diagram-project"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p3-title">Software Modelling & Simulation</h3>
+                        <p data-i18n="p3-desc">دراسة ونمذجة العمليات البرمجية لنظام نتائج الطلاب (SRMS)، مع عمل تحليل الاختناقات (Bottleneck Analysis) ومحاكاة مونت كارلو لإدارة مخاطر تسليم المشاريع.</p>
+                        <div class="project-techs">
+                            <span>CMMI / SPEM</span>
+                            <span>محاكاة إحصائية</span>
+                            <span>نمذجة برمجيات</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1MPMOcqoRm5mEgKCDjnGhybIdTTcgGSPa/view?usp=drivesdk" target="_blank" class="btn-project btn-doc" data-i18n="project-links-doc-srms"><i class="fa-solid fa-file-pdf"></i> عرض التقرير والرسومات</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: University (University Parking System) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-square-parking"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p4-title">نظام مواقف السيارات الجامعي (University Parking System)</h3>
+                        <p data-i18n="p4-desc">مشروع تصميم وتطوير نظام إدارة ذكي لتنظيم وتسهيل عمليات مواقف السيارات داخل الحرم الجامعي لتحقيق انسيابية أفضل.</p>
+                        <div class="project-techs">
+                            <span>هندسة برمجيات</span>
+                            <span>تصميم قواعد البيانات</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1pDr6VeaMehWzcP6_zqdIXD2eAO4_op_5/view?usp=drivesdk" target="_blank" class="btn-project btn-doc" data-i18n="project-links-doc-parking"><i class="fa-solid fa-file-pdf"></i> عرض المشروع (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: University (Electronic Library System) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-book-open-reader"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p5-title">نظام المكتبة الإلكترونية (Electronic Library System)</h3>
+                        <p data-i18n="p5-desc">تطبيق مكتبي متكامل بلغة Java لإدارة استعارة الكتب وتنظيم الأقسام والمستفيدين باستخدام مبادئ البرمجة كائنية التوجه (OOP).</p>
+                        <div class="project-techs">
+                            <span>Java</span>
+                            <span>OOP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/19AHZ64wLFMrnyQumYhO2cOwQ3kqw2aqU/view?usp=drivesdk" target="_blank" class="btn-project btn-code" data-i18n="project-links-code-library"><i class="fa-brands fa-github"></i> كود الجافا</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: University (User Experience Design Project) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p6-title">مشروع تصميم تجربة المستخدم (UX Design Project)</h3>
+                        <p data-i18n="p6-desc">بحث وتصميم واجهات تطبيق مستخدم نهائي، مع بناء النماذج الأولية ودراسة تجربة المستخدم وسهولة الاستخدام بالتفصيل.</p>
+                        <div class="project-techs">
+                            <span>UI/UX Design</span>
+                            <span>Wireframing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1dzkxvCI4eR9qlDi7eu5P0tU3UZ1vpuhT/view?usp=drivesdk" target="_blank" class="btn-project btn-doc" data-i18n="project-links-doc-ux"><i class="fa-solid fa-palette"></i> عرض النموذج والتصميم</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7: University (R Programming Language Project) -->
+                <div class="project-card" data-category="university">
+                    <div class="project-img-wrapper">
+                        <div class="project-icon-placeholder"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="project-badge" data-i18n="project-badge-uni">مشروع جامعي</div>
+                    </div>
+                    <div class="project-info">
+                        <h3 data-i18n="p7-title">تحليل البيانات بلغة R (R Project)</h3>
+                        <p data-i18n="p7-desc">تطبيق تحليل إحصائي متقدم على عينات بيانات واستخلاص الرؤى والمؤشرات وبناء التقارير الإحصائية والرسومات التوضيحية.</p>
+                        <div class="project-techs">
+                            <span>R Language</span>
+                            <span>تحليل إحصائي</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1G81hfaSla5OnzxKiY_ivuAImdfZpVpKK/view?usp=drivesdk" target="_blank" class="btn-project btn-doc" data-i18n="project-links-doc-r"><i class="fa-solid fa-file-code"></i> عرض كود R والتقرير</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title" data-i18n="certs-tag">الشهادات</span>
+                <h2 class="main-title" data-i18n="certs-title">الشهادات</h2>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-paint-brush"></i></div>
+                    <h3 data-i18n="c1-title">Infographic Design Bootcamp</h3>
+                    <p class="cert-issuer" data-i18n="c1-desc">تصميم الإنفوجرافيك وتوزيع العناصر البصرية بشكل جذاب.</p>
+                    <a href="https://drive.google.com/file/d/1GLzJfHUDKylINrQ3uX5mXljTUJwOq6GT/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+                
+                <!-- Cert 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 data-i18n="c2-title">Software Engineering Principles</h3>
+                    <p class="cert-issuer" data-i18n="c2-desc">مبادئ وأسس هندسة البرمجيات بالتعاون مع وزارة الاتصالات وتقنية المعلومات.</p>
+                    <a href="https://drive.google.com/file/d/1CB14CgSm2iUdLzQRJ7j1rbZ4aHav4U6A/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3 data-i18n="c3-title">Building Sustainable Business Ventures</h3>
+                    <p class="cert-issuer" data-i18n="c3-desc">شهادة تطوير المشاريع التجارية المستدامة الصادرة من منظمة JA Worldwide العالمية.</p>
+                    <a href="https://certificate.edapp.com/6580b692e0fb4f000c82217f/courses/675110033e19f33fe7e5d809/Abdulaziz%20Omar-2025-05-05T07%3A37%3A02.pdf" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (EdApp PDF)</a>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3 data-i18n="c4-title">IBM Data Fundamentals</h3>
+                    <p class="cert-issuer" data-i18n="c4-desc">أساسيات تحليل وهندسة البيانات والتعامل مع قواعد البيانات الضخمة من IBM.</p>
+                    <a href="https://drive.google.com/file/d/1kowL8z0bpVb733P6abynWOK5fy3Rsemx/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3 data-i18n="c5-title">Python Programming Basics</h3>
+                    <p class="cert-issuer" data-i18n="c5-desc">أساسيات لغة بايثون للبرمجة وهيكلة البيانات وحل المشكلات من شركة Huawei.</p>
+                    <a href="https://drive.google.com/file/d/1lsXus19NQYi7f3oOQbOJMO0dNJHfi7fx/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <h3 data-i18n="c6-title">Introduction to Cybersecurity</h3>
+                    <p class="cert-issuer" data-i18n="c6-desc">أساسيات ومفاهيم الأمن السيبراني وحماية الشبكات وتأمين البيانات من Cisco.</p>
+                    <a href="https://drive.google.com/file/d/1eJZeX_2_64gbqYNHqI4c2mFzLyB4sA-2/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+
+                <!-- Cert 7: AI ERA NEON Bootcamp -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3 data-i18n="c7-title">AI ERA NEON Bootcamp</h3>
+                    <p class="cert-issuer" data-i18n="c7-desc">معسكر بوتكامب في الذكاء الاصطناعي يغطي أساسيات وتطبيقات وتقنيات الذكاء الاصطناعي الحديثة.</p>
+                    <a href="https://drive.google.com/file/d/1BP-t3MEo3ergBBVNSvd0HLjUVdORpF7z/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-cert"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض الشهادة (Google Drive)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops Section -->
+    <section id="workshops" class="workshops-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title" data-i18n="workshops-tag">ورش العمل</span>
+                <h2 class="main-title" data-i18n="workshops-title">ورش العمل</h2>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- Workshop 1 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3 data-i18n="w1-title">Python Programming Bootcamp</h3>
+                    <p class="cert-issuer" data-i18n="w1-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية - جامعة الطائف.</p>
+                    <a href="https://drive.google.com/file/d/1HxuBPdMjp3LTo68slm-jnFEMbmWirXM-/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 2 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3 data-i18n="w2-title">Generative AI Course</h3>
+                    <p class="cert-issuer" data-i18n="w2-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية - مهارت من Google.</p>
+                    <a href="https://drive.google.com/file/d/12wbi_jPSkVf6YDxw3WpL_sB1DzEdiIz3/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 3 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3 data-i18n="w3-title">AskZad Database & Digital Publishing</h3>
+                    <p class="cert-issuer" data-i18n="w3-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية - المكتبة الرقمية السعودية.</p>
+                    <a href="https://drive.google.com/file/d/1saJbKCK6Phd1ep0p9Ma0Z3kjndByxETg/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 4 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3 data-i18n="w4-title">Clean Code & SOLID Principles</h3>
+                    <p class="cert-issuer" data-i18n="w4-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية.</p>
+                    <a href="https://drive.google.com/file/d/1MFm34EUhuWQlpYDpSa3399zfBsh-pcl-/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 5 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3 data-i18n="w5-title">Design with Intelligence: AI in Education</h3>
+                    <p class="cert-issuer" data-i18n="w5-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية.</p>
+                    <a href="https://drive.google.com/file/d/1NLxjMCzIUg0DrGQIO_oAsvwqn1_qZEOm/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 6 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-bug-slash"></i></div>
+                    <h3 data-i18n="w6-title">Cybersecurity: Building Secure Applications</h3>
+                    <p class="cert-issuer" data-i18n="w6-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية.</p>
+                    <a href="https://drive.google.com/file/d/1DMVEPPQcJHcpTziBdgw4JgDbn4ybHz_e/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+
+                <!-- Workshop 7 -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fa-brands fa-docker"></i></div>
+                    <h3 data-i18n="w7-title">Containerization with Nginx & Docker</h3>
+                    <p class="cert-issuer" data-i18n="w7-desc">ورشة عمل للاطلاع والاستفادة وتطوير المهارات التقنية.</p>
+                    <a href="https://drive.google.com/file/d/1oZCNp3W15zVmBXrVF9VxWxUxDYTOkvGP/view?usp=drivesdk" target="_blank" class="btn-cert" data-i18n="view-doc"><i class="fa-solid fa-arrow-up-right-from-square"></i> عرض المستند / الشهادة</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title" data-i18n="contact-tag">تواصل</span>
+                <h2 class="main-title" data-i18n="contact-title">ابدأ محادثة معي اليوم</h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact info cards -->
+                <div class="contact-info-cards">
+                    <div class="info-item-card">
+                        <div class="info-icon"><i class="fa-regular fa-envelope"></i></div>
+                        <div class="info-texts">
+                            <h4 data-i18n="contact-email">البريد الإلكتروني</h4>
+                            <a href="mailto:azizom555723@gmail.com">azizom555723@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item-card">
+                        <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="info-texts">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/abdulaziz-alsaed" target="_blank">abdulaziz-alsaed</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item-card">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="info-texts">
+                            <h4 data-i18n="contact-location">الموقع</h4>
+                            <span data-i18n="internship-location">حائل، المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact form -->
+                <div class="contact-form-wrapper">
+                    <!-- تم ربط هذا النموذج ببريد عبد العزيز الشخصي مباشرة عبر خدمة FormSubmit الآمنة والمجانية -->
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" data-i18n="contact-name-label">الاسم الكريم</label>
+                                <input type="text" id="name" name="name" required placeholder="مثال: عبد الله أحمد" data-i18n-placeholder="contact-name-placeholder">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" data-i18n="contact-email-label">البريد الإلكتروني</label>
+                                <input type="email" id="email" name="email" required placeholder="مثال: example@mail.com" data-i18n-placeholder="contact-email-placeholder">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-i18n="contact-subj-label">الموضوع</label>
+                            <input type="text" id="subject" name="subject" required placeholder="مثال: فرصة تدريبية / وظيفة" data-i18n-placeholder="contact-subj-placeholder">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-i18n="contact-msg-label">الرسالة</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="اكتب تفاصيل رسالتك هنا..." data-i18n-placeholder="contact-msg-placeholder"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" data-i18n="contact-submit">إرسال الرسالة <i class="fa-regular fa-paper-plane"></i></button>
+                        <div id="formStatus" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright" data-i18n="copyright">جميع الحقوق محفوظة © 2026 | عبد العزيز السعيد</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/abdulaziz-alsaed" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/azizom555" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script.js -->
+    <script src="script.js?v=4"></script>
+</body>
+</html>
